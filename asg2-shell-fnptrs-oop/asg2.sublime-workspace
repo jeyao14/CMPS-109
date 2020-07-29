@@ -1,0 +1,1054 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"begin",
+				"begin"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "code/Makefile",
+			"settings":
+			{
+				"buffer_size": 1784,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "code/main.cpp",
+			"settings":
+			{
+				"buffer_size": 2359,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "code/commands.cpp",
+			"settings":
+			{
+				"buffer_size": 17922,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "code/commands.h",
+			"settings":
+			{
+				"buffer_size": 1672,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "code/file_sys.cpp",
+			"settings":
+			{
+				"buffer_size": 11555,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "code/file_sys.h",
+			"settings":
+			{
+				"buffer_size": 8571,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "code/debug.cpp",
+			"settings":
+			{
+				"buffer_size": 919,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "code/debug.h",
+			"settings":
+			{
+				"buffer_size": 1845,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "code/util.cpp",
+			"settings":
+			{
+				"buffer_size": 1705,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "code/util.h",
+			"settings":
+			{
+				"buffer_size": 2649,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "code/PARTNER",
+			"settings":
+			{
+				"buffer_size": 6,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "code/README",
+			"settings":
+			{
+				"buffer_size": 1478,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".score/SCORE",
+			"settings":
+			{
+				"buffer_size": 2372,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "graded/SCORE",
+			"settings":
+			{
+				"buffer_size": 2411,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": ".score/SCORE.pair",
+			"settings":
+			{
+				"buffer_size": 1500,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Herman/Documents/School/CSE 111/asg2-shell-fnptrs-oop/graded/test3.ysh.err",
+		"/C/Users/Herman/Documents/School/CSE 111/asg2-shell-fnptrs-oop/graded/test4.ysh.err",
+		"/C/Users/Herman/Documents/School/CSE 111/asg2-shell-fnptrs-oop/graded/test4.ysh.out",
+		"/C/Users/Herman/Documents/School/CSE 111/asg2-shell-fnptrs-oop/graded/partnercheck.log",
+		"/C/Users/Herman/Documents/School/CSE 111/asg2-shell-fnptrs-oop/graded/grind.err",
+		"/C/Users/Herman/Documents/School/CSE 111/asg2-shell-fnptrs-oop/graded/gmake.log",
+		"/C/Users/Herman/Documents/School/CSE 111/asg2-shell-fnptrs-oop/graded/cpplint.log",
+		"/C/Users/Herman/Documents/School/CSE 111/asg2-shell-fnptrs-oop/graded/checksource.log",
+		"/C/Users/Herman/Documents/School/CSE 111/asg2-shell-fnptrs-oop/histogram-a2",
+		"/C/Users/Herman/Documents/School/CSE 111/asg2-shell-fnptrs-oop/code/Makefile.dep",
+		"/C/Users/Herman/Documents/School/CSE 111/asg2-shell-fnptrs-oop/code/PARTNER",
+		"/C/Users/Herman/Documents/School/CSE 111/asg2-shell-fnptrs-oop/code/Listing.ps",
+		"/C/Users/Herman/Documents/School/CSE 111/asg2-shell-fnptrs-oop/.score/mk.build",
+		"/C/Users/Herman/Documents/School/CSE 111/.gitattributes",
+		"/C/Users/Herman/Documents/School/CSE 111/asg2-shell-fnptrs-oop/.score/test2.ysh.out",
+		"/C/Users/Herman/Documents/School/CSE 111/asg2-shell-fnptrs-oop/.score/test2.ysh",
+		"/C/Users/Herman/Documents/School/CSE 111/asg2-shell-fnptrs-oop/.score/test1.ysh.out",
+		"/C/Users/Herman/Documents/School/CSE 111/asg2-shell-fnptrs-oop/.score/test4.ysh",
+		"/C/Users/Herman/Documents/School/CSE 111/asg2-shell-fnptrs-oop/.score/test4.ysh.err",
+		"/C/Users/Herman/Documents/School/CSE 111/asg2-shell-fnptrs-oop/.score/test4.ysh.out",
+		"/C/Users/Herman/Documents/School/CSE 111/asg2-shell-fnptrs-oop/.score/test4.ysh.status",
+		"/C/Users/Herman/Documents/School/CSE 111/asg2-shell-fnptrs-oop/.score/test3.ysh.out",
+		"/C/Users/Herman/Documents/School/CSE 111/asg2-shell-fnptrs-oop/.score/test3.ysh",
+		"/C/Users/Herman/Documents/School/CSE 111/asg2-shell-fnptrs-oop/.score/test3.ysh.err",
+		"/C/Users/Herman/Documents/School/CSE 111/asg2-shell-fnptrs-oop/.score/test3.ysh.status",
+		"/C/Users/Herman/Documents/School/CSE 111/asg2-shell-fnptrs-oop/.score/mk.tests",
+		"/C/Users/Herman/Documents/School/CSE 111/asg1-dc-bigint/.score/mk.tests",
+		"/C/Users/Herman/Documents/Unity Projects/ASSIST Lab 2019-2020/Assets/Scripts/activate_Button.cs",
+		"/C/Users/Herman/Documents/School/CSE 111/10_24_Notes",
+		"/C/Users/Herman/Documents/School/CSE 111/10_23_Notes.txt",
+		"/C/Users/Herman/Documents/School/CSE 111/10_21_Notes.txt",
+		"/C/Users/Herman/Documents/School/CSE 111/10_17 Notes.txt",
+		"/C/Users/Herman/Documents/School/CSE 111/asg2-shell-fnptrs-oop/code/debug.cpp",
+		"/C/Users/Herman/Documents/School/CSE 111/asg2-shell-fnptrs-oop/code/debug.h",
+		"/C/Users/Herman/Documents/School/CSE 111/10_16_Notes.txt",
+		"/C/Users/Herman/Documents/Unity Projects/ASSIST Lab 2019-2020/Assets/Scripts/FilmController.cs",
+		"/C/Users/Herman/Documents/Unity Projects/ASSIST Lab 2019-2020/Assets/Scripts/ReplayScript.cs",
+		"/C/Users/Herman/Documents/School/CSE 111/asg1-dc-bigint/code/iterstack.h",
+		"/C/Users/Herman/Documents/School/CSE 111/asg1-dc-bigint/code/util.cpp",
+		"/C/Users/Herman/Documents/School/CSE 111/asg1-dc-bigint/code/scanner.cpp",
+		"/C/Users/Herman/Documents/School/CSE 111/asg1-dc-bigint/code/libfns.cpp",
+		"/C/Users/Herman/Documents/School/CSE 111/asg1-dc-bigint/code/debug.cpp",
+		"/C/Users/Herman/Documents/School/CSE 111/asg1-dc-bigint/code/Makefile",
+		"/C/Users/Herman/Documents/School/CSE 111/asg2-shell-fnptrs-oop/code/Makefile",
+		"/C/Users/Herman/Documents/School/CSE 111/asg1-dc-bigint/code/HEADER.html",
+		"/C/Users/Herman/Documents/School/CSE 111/asg2-shell-fnptrs-oop/code/main.cpp",
+		"/C/Users/Herman/Documents/School/CSE 111/asg2-shell-fnptrs-oop/code/file_sys.cpp",
+		"/C/Users/Herman/Documents/School/CSE 111/asg2-shell-fnptrs-oop/code/commands.cpp",
+		"/C/Users/Herman/Documents/School/CSE 111/asg2-shell-fnptrs-oop/code/util.cpp",
+		"/C/Users/Herman/Documents/School/CSE 111/lab0-intro-unix/code/Makefile",
+		"/C/Users/Herman/Documents/School/CSE 111/asg1-dc-bigint/code/debug.h",
+		"/C/Users/Herman/Documents/School/CSE 111/asg1-dc-bigint/DebugOutput",
+		"/C/Users/Herman/Documents/School/CSE 111/Sample Code/asg1-dc-bigint/code/ubigint.cpp",
+		"/C/Users/Herman/Documents/School/CSE 111/Sample Code/asg1-dc-bigint/code/bigint.cpp",
+		"/C/Users/Herman/Documents/Unity Projects/Assist Lab Test/Assets/Scripts/FilmController.cs",
+		"/C/Users/Herman/Documents/School/CSE 111/asg1-dc-bigint/code/ubigint.cpp",
+		"/C/Users/Herman/Documents/School/CSE 111/Sample Code/asg1-dc-bigint/code/ubigint.h",
+		"/C/Users/Herman/Documents/Unity Projects/Assist Lab Test/Assets/Scripts/VideoPlay.cs",
+		"/C/Users/Herman/Documents/Unity Projects/ASSIST Lab 2019-2020/Assets/Scripts/PauseButton.cs",
+		"/C/Users/Herman/Documents/Unity Projects/ASSIST Lab 2019-2020/Assets/Oculus/SampleFramework/Core/DebugUI/Scripts/HandedInputSelector.cs",
+		"/C/Users/Herman/Documents/Phaser/Project_Gemini/js/Prefabs/arothStateMachine.js",
+		"/C/Users/Herman/Documents/School/CSE 111/asg1-dc-bigint/code/ubigint.o",
+		"/C/Users/Herman/Documents/School/CSE 111/asg1-dc-bigint/code/ubigint.h",
+		"/C/Users/Herman/Documents/School/CSE 111/asg1-dc-bigint/code/Makefile.dep",
+		"/C/Users/Herman/Documents/School/CSE 111/asg1-dc-bigint/code/bigint.o",
+		"/C/Users/Herman/Documents/School/CSE 111/asg1-dc-bigint/code/bigint.h",
+		"/C/Users/Herman/Documents/Unity Projects/ASSIST Lab 2019-2020/Assets/Scripts/MenuController.cs",
+		"/C/Users/Herman/Documents/Unity Projects/ASSIST Lab 2019-2020/Assets/Scripts/CorrectEmotionController.cs",
+		"/C/Users/Herman/Documents/Unity Projects/Assist Lab Test/Assets/Scripts/EmotionSelectController.cs",
+		"/C/Users/Herman/Documents/Unity Projects/Assist Lab Test/Assets/Scripts/LogController.cs",
+		"/C/Users/Herman/Documents/Unity Projects/Untitled-Sharing-Game/Untitled Sharing Game/Assets/Scripts/endScreenManager.cs",
+		"/C/Users/Herman/Documents/Unity Projects/Untitled-Sharing-Game/Untitled Sharing Game/Assets/Scripts/playerInput.cs",
+		"/C/Users/Herman/Documents/Unity Projects/Untitled-Sharing-Game/Untitled Sharing Game/Assets/Images/Keys/Not Pressed/Keys copy.png.meta",
+		"/C/Users/Herman/Documents/Unity Projects/Untitled-Sharing-Game/Untitled Sharing Game/Assets/Images/Keys/Not Pressed/Keys copy 7.png.meta",
+		"/C/Users/Herman/Documents/Unity Projects/Untitled-Sharing-Game/Untitled Sharing Game/Assets/Images/Keys/Not Pressed/Keys copy 6.png.meta",
+		"/C/Users/Herman/Documents/Unity Projects/Untitled-Sharing-Game/Untitled Sharing Game/Assets/Images/Keys/Not Pressed/Keys copy 5.png.meta",
+		"/C/Users/Herman/Documents/Unity Projects/Untitled-Sharing-Game/Untitled Sharing Game/Assets/Images/Keys/Not Pressed/Keys copy 3.png.meta",
+		"/C/Users/Herman/Documents/Unity Projects/Untitled-Sharing-Game/.gitignore",
+		"/C/Users/Herman/Documents/Unity Projects/Untitled-Sharing-Game/Untitled Sharing Game/Assets/Scripts/playButtonHover.cs",
+		"/C/Users/Herman/Documents/Phaser/Project_Gemini/js/States/MainMenu.js",
+		"/C/Users/Herman/Documents/Phaser/Project_Gemini/js/States/Theme.js",
+		"/C/Users/Herman/Documents/Phaser/Project_Gemini/js/States/Credits2.js",
+		"/C/Users/Herman/Documents/Phaser/Project_Gemini/js/States/Credits1.js",
+		"/C/Users/Herman/Documents/Phaser/Project_Gemini/js/States/Ending.js",
+		"/C/Users/Herman/Documents/Phaser/Project_Gemini/js/States/Load.js",
+		"/C/Users/Herman/Documents/Phaser/Project_Gemini/js/States/Windows.js",
+		"/C/Users/Herman/Documents/Phaser/Project_Gemini/js/States/Together.js",
+		"/C/Users/Herman/Documents/Phaser/Project_Gemini/js/States/Threads.js",
+		"/C/Users/Herman/Documents/Phaser/Project_Gemini/js/States/Tether.js",
+		"/C/Users/Herman/Documents/Phaser/Project_Gemini/js/States/Separate.js",
+		"/C/Users/Herman/Documents/Phaser/Project_Gemini/js/States/Houses.js",
+		"/C/Users/Herman/Documents/Phaser/Project_Gemini/js/States/GameOver.js",
+		"/C/Users/Herman/Documents/Phaser/Project_Gemini/js/States/Fences.js",
+		"/C/Users/Herman/Documents/Phaser/Project_Gemini/js/States/Cradle.js",
+		"/C/Users/Herman/Documents/Phaser/Project_Gemini/js/States/Clouds.js",
+		"/C/Users/Herman/Documents/Phaser/Project_Gemini/js/States/Cats.js",
+		"/C/Users/Herman/Documents/Phaser/Project_Gemini/js/Prefabs/YarnVisual.js",
+		"/C/Users/Herman/Documents/Phaser/Project_Gemini/js/Prefabs/Yarn.js",
+		"/C/Users/Herman/Documents/Phaser/Project_Gemini/js/Prefabs/WindowMask.js",
+		"/C/Users/Herman/Documents/Phaser/Project_Gemini/js/Prefabs/TextBubble.js",
+		"/C/Users/Herman/Documents/Phaser/Project_Gemini/js/Prefabs/PlayerFSM.js",
+		"/C/Users/Herman/Documents/Phaser/Project_Gemini/js/Prefabs/Player.js",
+		"/C/Users/Herman/Documents/Phaser/Project_Gemini/js/Prefabs/PlayButton.js",
+		"/C/Users/Herman/Documents/Phaser/Project_Gemini/js/Prefabs/MovePlatformLimiter.js",
+		"/C/Users/Herman/Documents/Phaser/Project_Gemini/js/Prefabs/MovePlatform.js",
+		"/C/Users/Herman/Documents/Phaser/Project_Gemini/js/Prefabs/DialogManager.js",
+		"/C/Users/Herman/Documents/Phaser/Project_Gemini/js/Prefabs/Cloud.js",
+		"/C/Users/Herman/Documents/Phaser/Project_Gemini/js/Prefabs/TransitionManager.js",
+		"/C/Users/Herman/Documents/Anime Projects/Blender Scripts/MixamoToBlenderBoneRename.py",
+		"/C/Users/Herman/Documents/Unity Projects/Untitled-Sharing-Game/Untitled Sharing Game/Assets/Scripts/globalScore.cs",
+		"/C/Users/Herman/Documents/Unity Projects/Untitled-Sharing-Game/Untitled Sharing Game/Assets/Scripts/levelManager.cs",
+		"/C/Users/Herman/Documents/Unity Projects/Untitled-Sharing-Game/Untitled Sharing Game/Assets/Scripts/timer.cs",
+		"/C/Users/Herman/Documents/Unity Projects/Assist Lab Test/Assets/Scripts/timer.cs",
+		"/C/Users/Herman/Documents/Unity Projects/Assist Lab Test/Assets/Scripts/CorrectEmotionDisplay.cs",
+		"/C/Users/Herman/Documents/Unity Projects/Assist Lab Test/Assets/Scripts/OculusControllerScript.cs",
+		"/C/Users/Herman/Documents/Unity Projects/Assist Lab Test/Assets/Scripts/MenuController.cs",
+		"/C/Users/Herman/Documents/Unity Projects/ASSIST Lab 2019-2020/Assets/Manager.cs",
+		"/C/Users/Herman/Documents/Unity Projects/Untitled-Sharing-Game/Untitled Sharing Game/Assets/Scripts/menuManager.cs",
+		"/C/Users/Herman/Documents/Anime Projects/Project Gemini/redCat.json",
+		"/C/Users/Herman/Documents/Anime Projects/Project Gemini/blueCat.json",
+		"/C/Users/Herman/Documents/Phaser/Project_Gemini/assets/img/cats/blueCat.json",
+		"/C/Users/Herman/Documents/Phaser/Project_Gemini/assets/img/cats/blueCatOld.json",
+		"/C/Users/Herman/Documents/Phaser/Project_Gemini/assets/img/cats/redCat.json",
+		"/C/Users/Herman/Documents/Phaser/Don't Be Late/js/Prefabs/Player.js",
+		"/C/Users/Herman/Documents/Phaser/Project_Gemini/index.html",
+		"/C/Users/Herman/Documents/Phaser/Project_Gemini/js/States/Boot.js",
+		"/C/Users/Herman/Documents/Phaser/Project_Gemini/assets/Dialog.txt",
+		"/C/Users/Herman/Documents/Phaser/Project_Gemini/js/Prefabs/Dialog.json"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 131.0,
+		"where_history":
+		[
+			"",
+			"file_sys.cpp",
+			"",
+			"DebugOutput",
+			"ydc: DEBUG(a) ubigint.cpp[59]",
+			"ubigint.cpp",
+			"",
+			"PlayerFSM.js",
+			"",
+			"PlayerFSM.js",
+			"",
+			"PlayerFSM.js",
+			"Player.js",
+			"MixamoToBlenderBoneRename.py",
+			"YarnVisual.js",
+			"Yarn.js",
+			"YarnMidPoint.js",
+			"",
+			"YarnMidPoint.js",
+			"",
+			"LevelManager.js",
+			"",
+			"LevelManager.js",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"MKFILE",
+			" i =",
+			"i =",
+			"traverse_",
+			"string",
+			"traverse_",
+			"command_error",
+			"mkdir",
+			"command_error",
+			"dirents",
+			"error",
+			"get_name",
+			"'g'",
+			"disown",
+			"~",
+			"('g'",
+			"words.at(1)",
+			"ls",
+			"~",
+			"remove_dirents",
+			"throw command_error",
+			"\t",
+			"==",
+			"slash",
+			"disown",
+			"yshell: DEBUG",
+			"('r'",
+			"rmr_traverse",
+			"disown()",
+			"remove_dirents",
+			"remove",
+			"~",
+			"command_error",
+			"~",
+			"disown",
+			"~",
+			"command_error",
+			"pwd_print(",
+			"invalid number of arguments",
+			"index",
+			"data",
+			"erase(",
+			"make(",
+			"//",
+			"/*",
+			"//",
+			"iter->second",
+			"PLEASE",
+			"file name",
+			"file name not specified",
+			"make",
+			"set_data",
+			"read_data",
+			"PLEASE",
+			"traverse_make",
+			"PLEASE",
+			"cat",
+			"lsr_traverse",
+			"destfi",
+			"TOTAL1",
+			"get_file_type",
+			"disown",
+			"state.get_root();",
+			"starting_dir = state.get_root();",
+			"get_file_type",
+			"PLEASE",
+			"~",
+			"PLEASE",
+			"split",
+			"PLEASE",
+			"DEBUGF('d'",
+			"<<<",
+			"size_t",
+			"\".\"",
+			"remove",
+			"make",
+			"mkdir",
+			"pwd_traverse",
+			"PLEASEDO",
+			"get_data",
+			"set_data",
+			"get_data",
+			"distance",
+			"read_dirents",
+			"pwd",
+			"mkdir",
+			"wordvec",
+			"mkdir",
+			";\n",
+			"TODO",
+			"::remove",
+			"remove",
+			"DEBUG",
+			"traverse",
+			"get_contents",
+			"rm",
+			"rm()",
+			"remove",
+			"prompt",
+			"read_dirents",
+			"get_cwd",
+			"mkdir",
+			"disown()",
+			"mkdir",
+			"cd",
+			"read_dirents",
+			"mkdir",
+			"read_dirents",
+			"insert_dirents",
+			"inode_state",
+			"words",
+			"mkfile\n",
+			"mkfile",
+			"get_contents",
+			"contents",
+			"wordvec",
+			"mkdir",
+			"ls",
+			"();\n",
+			"*\n",
+			"size",
+			"contents",
+			"insert",
+			"size",
+			"inode_nr",
+			"get_inode_nr",
+			"~",
+			"void"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'o'",
+			"read_data",
+			"PLEASEDO",
+			"",
+			"not",
+			"big_ubv",
+			"small_ubv",
+			"result_ubv",
+			"ubig_value",
+			"animationLengths",
+			"Phaser.Easing.Sinusoidal.InOut",
+			"createFidgetAnimTransitions",
+			"createNextAnimTransition",
+			"createJumpAnimTransition",
+			"self.isJumping",
+			"self.isMoving",
+			"catSprite.isJumping",
+			"catSprite.isMoving",
+			"\t",
+			"mpModifierTween",
+			"this.yarnVisual",
+			"YarnVisual",
+			"midAnchorYDrop",
+			"playerGravDir",
+			"playerDistYScalar",
+			"gp",
+			"gm",
+			"'",
+			"LevelManager",
+			"player2",
+			"player1",
+			"sfx_banjo"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 8,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "code/Makefile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1784,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								129,
+								135
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Makefile/Makefile.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "code/main.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2359,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1717,
+								1717
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 731.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "code/commands.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17922,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5764,
+								5764
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "code/commands.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1672,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								166,
+								166
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 3
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "code/file_sys.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11555,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8237,
+								8241
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5460.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "code/file_sys.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8571,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4316,
+								4316
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1842.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "code/debug.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 919,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								92,
+								92
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "code/debug.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1845,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								90,
+								90
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "code/util.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1705,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1330,
+								1330
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 468.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "code/util.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2649,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								89,
+								89
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "code/PARTNER",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6,
+								6
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "code/README",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1478,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1478,
+								1478
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": ".score/SCORE",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2372,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1806,
+								1806
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 793.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "graded/SCORE",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2411,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": ".score/SCORE.pair",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1500,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1109,
+								1109
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

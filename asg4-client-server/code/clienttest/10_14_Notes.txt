@@ -1,0 +1,20 @@
+for divide by 2, can start at begin
+If next value is odd, add 5 to current value
+
+Should the comparison operators be in bigint.cpp?
+Should the multiplication loop be in bigint.cpp?
+div_rem?
+bigint::compare?
+link down the vector?
+
+should I be worried mk.build says partnercheck not found? probably not?
+valgrind says 32,105 bytes still reachable? YES
+checksource, is it silent? YES
+do I have to do the pow error message? if I have time
+
+submit : ${ALLSOURCES}
+	submit cse111-wm.f19 asg1 $^
+
+Exponent printing too long error
+Comparison operators?
+when do the assignment windows close

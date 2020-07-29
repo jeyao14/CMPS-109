@@ -1,0 +1,80 @@
+no raw pointer - a primitive
+only shared_ptr - a template class
+
+{
+	shared_ptr<int> xS_2;
+	int x;
+	{
+		// int *xS = malloc(sizeof(int)); //C-style
+		shared_ptr<int> xS = make_shared<int>(6); //C++ style
+		// the memory allocated for xS will be called "bar"
+		// bar.users = 1
+		xS_2 = xS; // legal
+		// bar.users = 2
+		int y;
+		*xS = 7;
+		cout << *xS << endl;
+	} // destructor is called on xS
+	// bar.users = 1
+	*xS_2 = 5;
+	cout << *xS_2 << endl;
+	xS_2 = nullptr; // will free bar
+}
+// bar.users = 0;
+// bar will be freed
+
+root = make_shared>inode>(file_type::DIRECTORY_TYPE);
+DIRECTORY_TYPE is an enum class and we need to specify what class it is because it is
+enum class, not enum so we don't overload enum space
+
+cwd = root;
+
+pure virtual functions:
+virtual const string error_file_type() const = 0;
+we set = 0
+
+any class with pure virtual functions are abstract class
+
+using dir_ptr = shared_ptr<directory>;
+{
+	dir_ptr dobj = make_shared<directory>();
+	base_file_ptr = dobj;
+	ptr->mkdir(); // calls directory's mkdir
+	plain_ptr pobj = make_shared<plain_file>();
+	ptr = pobj; // is valid because ptr is base_file
+	ptr -> mkdir(); //calls base_file's mkdir
+}
+
+in file_sys.cpp
+
+void directory::print(int x){
+	cout << x << endl;
+}
+
+... continuing previous code (method 1)
+dir_ptr dptr = dynamic_pointer_cast<directory>(ptr); //casting ptr 
+dptr->print(5);
+
+(method 2)
+add : in base file
+virtual void print(int); to file_sys.h
+
+void base_file::print(int){
+	throw shit
+}
+
+note int not int x because x is unused
+
+class directory:
+	virtual void insert_into_dirents(stirng &s, inode_ptr p) override;
+
+class base_file:
+	virtual void insert_into_dirents(stirng &, inode_ptr); //ampersand is important
+
+void directory::insert_into_dirents(stirng &s, inode_ptr p){
+	dirents[s] = p;
+}
+
+for step 2 in inode_state()
+root->contents->insert_into_dirents(".",root);
+

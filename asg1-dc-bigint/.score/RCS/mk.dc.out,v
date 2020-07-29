@@ -1,0 +1,49 @@
+head	1.2;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.2
+date	2019.04.03.23.42.02;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2019.04.03.23.40.50;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@-
+@
+text
+@#!/bin/sh
+# $Id: mk.dc.out,v 1.1 2019-04-03 16:40:50-07 - - $
+
+for test in test[0-9]-*.ydc
+do
+   echo $0: $test
+   /usr/bin/dc <$test 1>$test.dc.out 2>&1
+done
+
+@
+
+
+1.1
+log
+@-
+@
+text
+@d2 1
+a2 1
+# $Id$
+d6 1
+@

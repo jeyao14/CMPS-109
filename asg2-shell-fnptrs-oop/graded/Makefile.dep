@@ -1,0 +1,6 @@
+# Makefile.dep created Tue Nov  5 22:32:13 PST 2019
+commands.o: commands.cpp commands.h file_sys.h util.h debug.h
+debug.o: debug.cpp debug.h util.h
+file_sys.o: file_sys.cpp debug.h file_sys.h util.h commands.h
+util.o: util.cpp util.h debug.h
+main.o: main.cpp commands.h file_sys.h util.h debug.h

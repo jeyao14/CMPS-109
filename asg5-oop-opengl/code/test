@@ -1,0 +1,6 @@
+define foo equilateral 100
+draw red foo 200 200
+draw green bar 100 150
+
+moveby 10
+

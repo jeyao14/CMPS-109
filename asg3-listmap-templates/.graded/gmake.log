@@ -1,0 +1,13 @@
+/afs/cats.ucsc.edu/courses/cse111-wm/bin/checksource debug.cpp
+/afs/cats.ucsc.edu/courses/cse111-wm/bin/cpplint.py.perl debug.cpp
+Done processing debug.cpp
+g++ -std=gnu++17 -g -O0 -Wall -Wextra -Wpedantic -Wshadow -Wold-style-cast -fdiagnostics-color=always -c debug.cpp
+/afs/cats.ucsc.edu/courses/cse111-wm/bin/checksource util.cpp
+/afs/cats.ucsc.edu/courses/cse111-wm/bin/cpplint.py.perl util.cpp
+Done processing util.cpp
+g++ -std=gnu++17 -g -O0 -Wall -Wextra -Wpedantic -Wshadow -Wold-style-cast -fdiagnostics-color=always -c util.cpp
+/afs/cats.ucsc.edu/courses/cse111-wm/bin/checksource main.cpp
+/afs/cats.ucsc.edu/courses/cse111-wm/bin/cpplint.py.perl main.cpp
+Done processing main.cpp
+g++ -std=gnu++17 -g -O0 -Wall -Wextra -Wpedantic -Wshadow -Wold-style-cast -fdiagnostics-color=always -c main.cpp
+g++ -std=gnu++17 -g -O0 -Wall -Wextra -Wpedantic -Wshadow -Wold-style-cast -fdiagnostics-color=always -o keyvalue debug.o util.o main.o

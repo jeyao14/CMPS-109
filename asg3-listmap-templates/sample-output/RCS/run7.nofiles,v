@@ -1,0 +1,25 @@
+head	1.1;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.1
+date	2019.10.22.19.42.29;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@-
+@
+text
+@keyvalue: /no/such: No such file or directory
+keyvalue: no//file/either: No such file or directory
+@
