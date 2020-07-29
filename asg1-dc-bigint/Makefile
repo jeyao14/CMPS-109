@@ -1,47 +1,65 @@
-# $Id: Makefile,v 7.46 2019-08-15 17:02:48-07 - - $
+# $Id: Makefile,v 1.39 2019-08-22 17:00:57-07 - - $
 
-ALL:= ${basename ${filter %.mm, ${shell ls -t}}}
-NEW:= ${firstword ${ALL}}
+MKFILE      = Makefile
+DEPFILE     = ${MKFILE}.dep
+NOINCL      = ci clean spotless
+NEEDINCL    = ${filter ${NOINCL}, ${MAKECMDGOALS}}
+GMAKE       = ${MAKE} --no-print-directory
+GPPWARN     = -Wall -Wextra -Wpedantic -Wshadow -Wold-style-cast
+GPPOPTS     = ${GPPWARN} -fdiagnostics-color=never
+COMPILECPP  = g++ -std=gnu++2a -g -O0 ${GPPOPTS}
+MAKEDEPCPP  = g++ -std=gnu++2a -MM ${GPPOPTS}
+UTILBIN     = /afs/cats.ucsc.edu/courses/cse111-wm/bin
 
-GROFFDIR = /afs/cats.ucsc.edu/courses/cse110a-wm/groff
-DEPS     = ${GROFFDIR}/tmac/Tmac.mm-etc Makefile
-DIROPTS  = -F${GROFFDIR}/font -I${GROFFDIR}/tmac -M${GROFFDIR}/tmac
-GROFFMM  = groff -mgm -U -b -ww ${DIROPTS}
-PSOPTS   = -spte -Tps
-TTOPTS   = -st -Tlatin1 -P-cbuo
-SQUEEZE  = perl -00pe0
-STARS    = ************************************************************
-LABEL    = echo "${STARS}"; echo $@: $< ${1}; echo "${STARS}"
+MODULES     = ubigint bigint libfns scanner debug util
+CPPHEADER   = ${MODULES:=.h} iterstack.h relops.h
+CPPSOURCE   = ${MODULES:=.cpp} main.cpp
+EXECBIN     = ydc
+OBJECTS     = ${CPPSOURCE:.cpp=.o}
+MODULESRC   = ${foreach MOD, ${MODULES}, ${MOD}.h ${MOD}.cpp}
+OTHERSRC    = ${filter-out ${MODULESRC}, ${CPPHEADER} ${CPPSOURCE}}
+ALLSOURCES  = ${MODULESRC} ${OTHERSRC} ${MKFILE} README
+LISTING     = Listing.ps
 
-newest : ${NEW}.tt ${NEW}.view ${NEW}.pdf
+all : ${EXECBIN}
 
-all : tt ps pdf
+${EXECBIN} : ${OBJECTS}
+	${COMPILECPP} -o $@ ${OBJECTS}
 
-ps : ${ALL:%=%.ps}
-tt : ${ALL:%=%.tt}
-pdf : ${ALL:%=%.pdf}
+%.o : %.cpp
+	- ${UTILBIN}/checksource $<
+	- ${UTILBIN}/cpplint.py.perl $<
+	${COMPILECPP} -c $<
 
-% : %.view
+ci : ${ALLSOURCES}
+	${UTILBIN}/cid + ${ALLSOURCES}
+	- ${UTILBIN}/checksource ${ALLSOURCES}
 
-%. : %.view
+lis : ${ALLSOURCES}
+	mkpspdf ${LISTING} ${ALLSOURCES} ${DEPFILE}
 
-%.view : %.ps
-	- pkill -s 0 gv || true
-	gv $< &
+clean :
+	- rm ${OBJECTS} ${DEPFILE} core ${EXECBIN} ${EXECBIN}.errs
 
-%.ps : %.mm ${DEPS}
-	@ ${call LABEL, ${PSOPTS}}
-	cid + $<
-	${GROFFMM} ${PSOPTS} -z -rRef=1 $<
-	${GROFFMM} ${PSOPTS} $< >$@
-	letterbbox $@
+spotless : clean
+	- rm ${EXECBIN} ${LISTING} ${LISTING:.ps=.pdf}
 
-%.tt : %.mm ${DEPS}
-	@ ${call LABEL, ${TTOPTS}}
-	cid + $<
-	${GROFFMM} ${TTOPTS} -z -rRef=1 $<
-	${GROFFMM} ${TTOPTS} $< | ${SQUEEZE} >$@
+
+dep : ${CPPSOURCE} ${CPPHEADER}
+	@ echo "# ${DEPFILE} created `LC_TIME=C date`" >${DEPFILE}
+	${MAKEDEPCPP} ${CPPSOURCE} >>${DEPFILE}
 
-%.pdf : %.ps
-	mkpdf $<
+${DEPFILE} :
+	@ touch ${DEPFILE}
+	${GMAKE} dep
+
+again :
+	${GMAKE} spotless dep ci all lis
+
+submit : ${ALLSOURCES}
+	submit cse111-wm.f19 asg1 $^
+
+ifeq (${NEEDINCL}, )
+include ${DEPFILE}
+endif
 
